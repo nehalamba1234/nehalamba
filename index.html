@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>create event</title>
+</head>
+<form action="connect.php" method="post"><fieldset>
+<center><font face="Copperplate Gothic" size="8">Create Event</font></center>
+<br>
+<center><font face="Book Antiqua" size="6">Minimum Booking Amount Rs. 1000/-</font></center>
+<br>
+<label for="TITLE">TITLE</label>
+<input type="text" class="form-control" 
+placeholder="event" name="TITLE" required><br><br>
+
+<label for="DATE TO">DATE TO</label>
+<input type="date">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="DATE FROM">DATE FROM</label>
+<input type="date" name="date">
+<br><br>
+<label for="TIME TO">TIME TO</label>
+<input type="time">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="TIME FROM">TIME FROM</label>
+<input type="time" name="time">
+<br><br>
+<label for ="Entertainments">ENTERTAINMENTS:-</label><br><br>
+<input type="checkbox" id="music" name="entertainment" value="music">
+<label for="music">Music</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="checkbox" id="dance" name="entertainment" value="dance">
+<label for="dance">Dance</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="checkbox" id="cartoons" name="entertainment" value="cartoons">
+<label for="cartoons">Cartoons</label><br><br>
+<label for="Decorations">DECORATIONS:-</label><br><br>
+<input type="checkbox" id="light" name="decorations" value="light">
+<label for="light">Light</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="checkbox" id="chair" name="decorations" value="chair">
+<label for="chair">Chair</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="checkbox" id="stage" name="decorations" value="stage">
+<label for="stage">Stage</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="checkbox" id="flowers" name="decorations" value="flowers">
+<label for="flowers">Flowers</label><br><br>
+<label for="Food">FOOD:-</label><br><br>
+<input type="checkbox" id="veg" name="food" value="veg">
+<label for="veg">Veg</label>&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+<input type="checkbox" id="nonveg" name="food" value="nonveg">
+<label for="nonveg">Non-Veg</label>&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+<input type="checkbox" id="veg+nonveg" name="food" value="veg+nonveg">
+<label for="veg+nonveg">Veg+Non-Veg</label><br><br>
+<label for="no. of chairs">NO. OF CHAIRS</label>
+<input type="text"
+placeholder="no.of chairs" name="chairs"><br><br>
+<label for="address">ADDRESS</label>
+<input type="text"
+placeholder="enter address" name="address" required><br><br>
+<label for="mobile">MOBILE NUMBER</label>
+<input type="number" size="10" 
+placeholder="number" name="number"><br><br>
+<label for="email">Email Id</label>
+<input type="email"
+placeholder="e-mail" name="email"><br><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="reset">&emsp;&emsp;&emsp;&emsp;&emsp;
+<input type="submit" value="Book With Payment" class="btn btn-primary">
+</form>
+</body>
+</html>
+
+
+
+
